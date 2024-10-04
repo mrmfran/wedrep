@@ -1,0 +1,26 @@
+body { 
+  background: #FFF 
+  text-align: center; 
+}
+p { 
+  font: normal 18px/1.6 "Helvetica", Arial, sans-serif; 
+  color: #464646; 
+}
+.id { 
+  margin-bottom 15px; 
+}
+#class { 
+  line-height: 1.1; 
+  font-family: "Roboto Slab, serif'; 
+  font-weight: 300; 
+}
+#img { 
+  border: none 
+}
+.org { 
+  color: #54ba6a; 
+  text-decoration: underline; 
+
+a { 
+  color: #68c6b8; 
+}
