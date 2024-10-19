@@ -25,6 +25,10 @@ h1 {
   /* ID Selector */
   #if {
     clear: left;
+    font-family: sans-serif;
   }
   
+  #footer {
+    color: darkgreen;
+  }
   
