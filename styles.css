@@ -5,6 +5,10 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  img {
+    float: left;
+  }
+
   /* Class Selector */  /* Font Properties */
   .highlight {
     background-color: lightslategray;
@@ -13,6 +17,14 @@ h1 {
   }
 
   /* Relational Selector */
-  
+  /* Descendant Selector */
+  p a {
+    color: darkred;
+  } 
 
+  /* ID Selector */
+  #if {
+    clear: left;
+  }
+  
   
