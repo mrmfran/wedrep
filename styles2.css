@@ -1,0 +1,58 @@
+body {
+    height: 800px;
+    background-color: #f8d2d2;
+}    
+
+h1{
+    text-align: center;
+}
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#orange {
+    background-color: orange;
+}
+
+.vidcont {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.column1{
+    width: 20%;
+    text-align: center;
+}
+
+.column2{
+    width: 75%;
+    text-align: center;
+}
+
+.column3{
+    width: 45%;
+    height: 10;
+    text-align: center;
+}
+
+.fade{
+    width: 300px;
+    animation: fadeInOut 10s infinite;
+    top: 50%;
+    z-index: 12;
+    position: fixed;
+    transform: translateY(-50%);
+    right: 5%;
+    height: auto;
+    pointer-events: none;
+}
+
+@keyframes fadeInOut{
+    0%, 100% { opacity: 0;}
+    50% { opacity: 1;}
+}

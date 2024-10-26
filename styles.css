@@ -1,8 +1,40 @@
-/* Type Selector */ 
+
+/* Type Selector */ /* Added Margins and Paddings */
 h1 {
     color: green;
     font-size: 2.5em;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    padding-right: 25px;
+  }
+
+  /* Inserted Border */
+  h2 {
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border: 3px dashed red;
+  }
+
+  /*h3     */
+  #if {                                     
+    margin-right: 200px;
+    padding-left: 20px;
+    border: 5px dotted green;
+  }
+
+  /* Inserted Gradient */
+  .highlight {
+    background: linear-gradient(to right, purple, orange);
+    color: yellow;
+    padding: 50px 10px;
+    margin-top: 20px;
+    border: 2px solid pink;
+  }
+
+  ul {
+    margin-left: 80px;
+    padding: 10px;
+    border: 4px groove blue;
   }
 
   img {
@@ -27,8 +59,20 @@ h1 {
     clear: left;
     font-family: sans-serif;
   }
+
+
+
+  /* I hope, you will consider this as ugly since you mentioned that you hate teal lol */
+  main {
+    background:radial-gradient(circle, darkgrey, teal); 
+    color: white;
+  }
   
   #footer {
     color: darkgreen;
+    padding: 30px;
+    margin-top: 50px;
+    border:5px double yellow;
+    background-image: url("images/Horror.jpg"); /* Background image inserted */
   }
   
