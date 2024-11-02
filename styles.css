@@ -1,78 +1,69 @@
+/* For fluid layout */
+body {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
 
-/* Type Selector */ /* Added Margins and Paddings */
-h1 {
-    color: green;
-    font-size: 2.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 50px;
-    padding-right: 25px;
-  }
+header {
+  width: 96.875%;
+  padding: 15px 1.5625%;
+  border-bottom: 2px solid black;
+}
 
-  /* Inserted Border */
-  h2 {
-    margin-top: 30px;
-    padding-bottom: 40px;
-    border: 3px dashed red;
-  }
+main {
+  width: 59.375%;
+  padding: 15px 1.5625%;
+  float: left;
+}
 
-  /*h3     */
-  #if {                                     
-    margin-right: 200px;
-    padding-left: 20px;
-    border: 5px dotted green;
-  }
+aside {
+  width: 34.375%;
+  padding: 15px 1.5625%;
+  float: right;
+}
 
-  /* Inserted Gradient */
-  .highlight {
-    background: linear-gradient(to right, purple, orange);
-    color: yellow;
-    padding: 50px 10px;
-    margin-top: 20px;
-    border: 2px solid pink;
-  }
+footer {
+  clear: both;
+  width: 96.875%;
+  padding: 15px 1.5625%;
+  border-top: 2px solid black;
+}
 
-  ul {
-    margin-left: 80px;
-    padding: 10px;
-    border: 4px groove blue;
-  }
+/* Horizontal Nav Menu */
+#main ul {
+  display: flex;                
+  justify-content: center;      
+  list-style-type: none;        
+  padding: 0;                   
+  background-color: #087030;       
+  margin: 0;
+}
 
-  img {
-    float: left;
-  }
+#main ul li {
+  margin: 0 15px;               
+}
 
-  /* Class Selector */  /* Font Properties */
-  .highlight {
-    background-color: lightslategray;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font: italic 200 1.5em Arial;
-  }
+#main ul li a {
+  display: block;               
+  color: black;                
+  text-decoration: none;        
+  padding: 15px 20px;           
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  transition: background-color 0.3s ease; 
+}
 
-  /* Relational Selector */
-  /* Descendant Selector */
-  p a {
-    color: darkred;
-  } 
+/* Effect when you hover your mouse on the Nav Menu */
+#main ul li a:hover {
+  background-color: #555;       
+}
 
-  /* ID Selector */
-  #if {
-    clear: left;
-    font-family: sans-serif;
-  }
-
-
-
-  /* I hope, you will consider this as ugly since you mentioned that you hate teal lol */
-  main {
-    background:radial-gradient(circle, darkgrey, teal); 
-    color: white;
-  }
+/* scalable Image */
+.scale {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: .5em;
   
-  #footer {
-    color: darkgreen;
-    padding: 30px;
-    margin-top: 50px;
-    border:5px double yellow;
-    background-image: url("images/Horror.jpg"); /* Background image inserted */
-  }
-  
+}

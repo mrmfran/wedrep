@@ -1,6 +1,61 @@
-body, html {
-    height: 100;
-    margin: 0;
-    background-image: url('images/pennywise.jpg');
-    background-size: cover;
+/* For fluid layout */
+body {
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+    border: 2px solid black;
 }
+
+header {
+    width: 96.875%;
+    padding: 15px 1.5625%;
+    border-bottom: 2px solid black;
+}
+
+main {
+    width: 59.375%;
+    padding: 15px 1.5625%;
+    float: left;
+}
+
+aside {
+    width: 34.375%;
+    padding: 15px 1.5625%;
+    float: right;
+}
+
+footer {
+    clear: both;
+    width: 96.875%;
+    padding: 15px 1.5625%;
+    border-top: 2px solid black;
+}
+
+/* Horizontal Nav Menu */
+#main ul {
+    display: flex;                
+    justify-content: center;      
+    list-style-type: none;        
+    padding: 0;                   
+    background-color: #087030;       
+    margin: 0;
+  }
+  
+  #main ul li {
+    margin: 0 15px;               
+  }
+  
+  #main ul li a {
+    display: block;               
+    color: black;                
+    text-decoration: none;        
+    padding: 15px 20px;           
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+  }
+  
+  /* Effect when you hover your mouse on the Nav Menu */
+  #main ul li a:hover {
+    background-color: #555;       
+  }
