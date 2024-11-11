@@ -59,3 +59,26 @@ footer {
   #main ul li a:hover {
     background-color: #555;       
   }
+
+  /* Changes to Gallery */
+  #imggal {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .gal1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gal2 {                 /* Adjusted the image size */
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s ease;   
+  }
+
+  .gal2:hover {           /* to enlarge the image when the pointer goes on top of the image */
+    transform: scale(2.5);
+ }
