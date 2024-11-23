@@ -1,0 +1,3 @@
+1.  Under clickme.html, utilizing the alt description would benefit visually impaired users.
+2. Adjusted Flexible layouts to enhance responsiveness in the "about" section. 
+3. Moved the comments of the images of the ABOUT page below the image.

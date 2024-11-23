@@ -1,0 +1,81 @@
+/* For fluid layout */
+body {
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  header {
+    width: 96%;
+    padding: 15px 1.5%;
+    border-bottom: 2px solid black;
+  }
+  
+  main {
+    width: 59%;
+    padding: 15px 1.5%;
+    float: left;
+  }
+  
+  aside {
+    width: 34%;
+    padding: 15px 1.5%;
+    float: right;
+  }
+  
+  footer {
+    clear: both;
+    width: 96%;
+    padding: 15px 1.5%;
+    border-top: 2px solid black;
+  }
+  
+  /* Horizontal Nav Menu */
+  #main ul {
+    display: flex;                
+    justify-content: center;      
+    list-style-type: none;        
+    padding: 0;                   
+    background-color: #087030;       
+    margin: 0;
+  }
+  
+  #main ul li {
+    margin: 0 15px;               
+  }
+  
+  #main ul li a {
+    display: block;               
+    color: black;                
+    text-decoration: none;        
+    padding: 15px 20px;           
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+  }
+  
+  /* Effect when you hover your mouse on the Nav Menu */
+  #main ul li a:hover {
+    background-color: #555;       
+    color: white;
+  }
+th, td {
+    border: 1px solid whitesmoke;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+tr:hover {
+    background-color: green;
+}
+

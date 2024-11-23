@@ -3,31 +3,30 @@ body {
   width: 90%;
   max-width: 1024px;
   margin: 0 auto;
-  border: black;
 }
 
 header {
-  width: 96.875%;
-  padding: 15px 1.5625%;
+  width: 96%;
+  padding: 15px 1.5%;
   border-bottom: 2px solid black;
 }
 
 main {
-  width: 59.375%;
-  padding: 15px 1.5625%;
+  width: 59%;
+  padding: 15px 1.5%;
   float: left;
 }
 
 aside {
-  width: 34.375%;
-  padding: 15px 1.5625%;
+  width: 34%;
+  padding: 15px 1.5%;
   float: right;
 }
 
 footer {
   clear: both;
-  width: 96.875%;
-  padding: 15px 1.5625%;
+  width: 96%;
+  padding: 15px 1.5%;
   border-top: 2px solid black;
 }
 
@@ -58,5 +57,5 @@ footer {
 /* Effect when you hover your mouse on the Nav Menu */
 #main ul li a:hover {
   background-color: #555;       
+  color: white;
 }
-

@@ -1,5 +1,6 @@
 /* For Fluid Layout */
 body {
+  font-family: 'Alegreya Sans SC', sans-serif; /* Added google font */
   width: 90%;
   max-width: 1024px;
   margin: 0 auto;
@@ -99,3 +100,11 @@ footer {
   padding: 15px;
   text-align: center;
 }
+
+/* Effect when you hover your mouse on the Nav Menu */
+#main ul li a:hover {
+  background-color: #555;       
+  color: white;
+}
+
+

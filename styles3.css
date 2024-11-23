@@ -1,85 +1,109 @@
 /* For fluid layout */
 body {
-    width: 90%;
-    max-width: 1024px;
-    margin: 0 auto;
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Inserted background image */
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/Bam.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.5; 
+  z-index: -1; 
 }
 
 header {
-    width: 96.875%;
-    padding: 15px 1.5625%;
-    border-bottom: 2px solid black;
+  width: 96%;
+  padding: 15px 1.5%;
+  border-bottom: 2px solid black;
 }
 
 main {
-    width: 59.375%;
-    padding: 15px 1.5625%;
-    float: left;
+  width: 59%;
+  padding: 15px 1.5%;
+  float: left;
 }
 
 aside {
-    width: 34.375%;
-    padding: 15px 1.5625%;
-    float: right;
+  width: 34%;
+  padding: 15px 1.5%;
+  float: right;
 }
 
 footer {
-    clear: both;
-    width: 96.875%;
-    padding: 15px 1.5625%;
-    border-top: 2px solid black;
+  clear: both;
+  width: 96%;
+  padding: 15px 1.5%;
+  border-top: 2px solid black;
 }
 
 /* Horizontal Nav Menu */
 #main ul {
-    display: flex;                
-    justify-content: center;      
-    list-style-type: none;        
-    padding: 0;                   
-    background-color: #087030;       
-    margin: 0;
-  }
-  
-  #main ul li {
-    margin: 0 15px;               
-  }
-  
-  #main ul li a {
-    display: block;               
-    color: black;                
-    text-decoration: none;        
-    padding: 15px 20px;           
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    transition: background-color 0.3s ease; 
-  }
-  
-  /* Effect when you hover your mouse on the Nav Menu */
-  #main ul li a:hover {
-    background-color: #555;       
-  }
+  display: flex;                
+  justify-content: center;      
+  list-style-type: none;        
+  padding: 0;                   
+  background-color: #087030;       
+  margin: 0;
+}
 
-  /* Changes to Gallery */
-  #imggal {
-    padding: 20px;
-    text-align: center;
-  }
+#main ul li {
+  margin: 0 15px;               
+}
 
-  .gal1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+#main ul li a {
+  display: block;               
+  color: black;                
+  text-decoration: none;        
+  padding: 15px 20px;           
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  transition: background-color 0.3s ease; 
+}
 
-  .gal2 {                 /* Adjusted the image size */
-    width: 150px;
-    height: auto;
-    margin: 10px;
-    transition: transform 0.3s ease;   
-  }
+/* Effect when you hover your mouse on the Nav Menu */
+#main ul li a:hover {
+  background-color: #555;       
+  color: white;
+}
 
-  .gal2:hover {           /* to enlarge the image when the pointer goes on top of the image */
-    transform: scale(2.5);
- }
+/* Changes to Gallery */
+#imggal {
+  padding: 20px;
+  text-align: center;
+}
 
- 
+/* Flexbox for Image Gallery for improvements from website critiques */
+.gal1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: center; 
+  align-items: flex-start; 
+}
+
+/* Adjusted the image size */
+.gal2 {
+  max-width: 150px;
+  height: auto;
+  margin: 10px;
+  border-radius: 8px; 
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;   
+}
+
+/* To enlarge the image when the pointer goes on top of the image */
+.gal2:hover {           
+  transform: scale(1.5); 
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.4); 
+}
