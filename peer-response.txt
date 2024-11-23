@@ -1,3 +1,7 @@
-1.  Under clickme.html, utilizing the alt description would benefit visually impaired users.
+1.  Under about.html(former clickme.html), utilizing the alt description would benefit visually impaired users. I added alt descriptions.
+
 2. Adjusted Flexible layouts to enhance responsiveness in the "about" section. 
+
 3. Moved the comments of the images of the ABOUT page below the image.
+
+4. Inserted a background image of the bambulab logo, made it a little bit transparent so the description can still be read by the user.
