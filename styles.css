@@ -1,6 +1,6 @@
 /* For Fluid Layout */
 body {
-  font-family: 'Alegreya Sans SC', sans-serif; /* Added google font */
+  font-family: Arial, sans-serif;
   width: 90%;
   max-width: 1024px;
   margin: 0 auto;
@@ -15,7 +15,6 @@ body {
   background-color: #087030;
   margin: 0;
 }
-
 
 #main ul li {
   margin: 0 15px;
@@ -33,6 +32,7 @@ body {
 
 #main ul li a:hover {
   background-color: #555;
+  color: white;
 }
 
 /* Flex Container */
@@ -99,6 +99,7 @@ footer {
   width: 100%;
   padding: 15px;
   text-align: center;
+  border-top: 2px solid black;
 }
 
 /* Effect when you hover your mouse on the Nav Menu */
@@ -106,5 +107,3 @@ footer {
   background-color: #555;       
   color: white;
 }
-
-
