@@ -27,8 +27,9 @@ aside {
 
 footer {
   clear: both;
-  width: 96%;
-  padding: 15px 1.5%;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
   border-top: 2px solid black;
 }
 
@@ -137,6 +138,11 @@ tr:hover {
   .grid-container {
       grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
+
+  #main ul li a {
+      padding: 10px 15px;
+      font-size: 14px;
+  }
 }
 
 /* Footer */
@@ -145,4 +151,5 @@ footer {
   width: 100%;
   padding: 15px;
   text-align: center;
+  border-top: 2px solid black;
 }
